@@ -30,3 +30,4 @@ o navegar hasta la carpeta donde se encuentra el .deb
 sudo apt-get update && sudo apt-get install apt-transport-https
 apt --fix-broken install
 
+
