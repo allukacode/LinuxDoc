@@ -30,6 +30,7 @@ sudo apt-get upgrade
 apt-get install apt-transport-https
 apt-get install git
 apt-get install net-tools
+apt install openssh-server openssh-client
 ```
 
 Forzar Instalacionnn
