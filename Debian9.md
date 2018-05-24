@@ -20,11 +20,15 @@ sudo apt-get upgrade
 
 ```
 #Aplicaciones Esenciales del S.O
+```
 apt-get install apt-transport-https
 apt-get install git
+```
 
 Forzar Instalacion
+```
 apt-get install -f
+```
 
 
 
