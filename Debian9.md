@@ -1,9 +1,11 @@
 # Debian 9 
 ### Documentacion Basica De Comandos Esenciales
-
-Que Hacer despues de instalar Debian ?
-Reiniciar / Apagar
+Nota: Iniciar session como una cuenta con privilegios
 ```
+root@debian:/home/guest/Downloads#
+```
+Reiniciar / Apagar
+
 sudo reboot
 
 sudo poweroff
@@ -26,7 +28,9 @@ sudo apt-get upgrade
 
 ```
 #Aplicaciones Esenciales del S.O
+
 ```
+dpkg -i /home/guest/Downloads/google-chrome-stable_current_amd64.deb
 apt-get install mysql-server
 apt-get install curl
 apt-get install apt-transport-https
@@ -48,7 +52,7 @@ apt-get install -f
 
 Instalar Un paquete con extension .deb
 ```
-dpkg -i /home/guest/Downloads/google-chrome-stable_current_amd64.deb
+
 o navegar hasta la carpeta donde se encuentra el .deb
 /home/guest/Downloads# dpkg -i google-chrome-stable_current_amd64.deb
 
