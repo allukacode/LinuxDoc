@@ -27,3 +27,4 @@ o navegar hasta la carpeta donde se encuentra el .deb
 /home/guest/Downloads# dpkg -i google-chrome-stable_current_amd64.deb
 
 ```
+
