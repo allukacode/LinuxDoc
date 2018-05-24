@@ -1,10 +1,13 @@
 # Debian 9 
 ### Documentacion Basica De Comandos Esenciales
+
 Nota: Iniciar session como una cuenta con privilegios
 ```
 root@debian:/home/guest/Downloads#
 ```
+
 Reiniciar / Apagar
+```
 
 sudo reboot
 
