@@ -15,6 +15,11 @@ Actualizar las listas de paquetes de software.
 sudo apt-get update
 ```
 
+Actualiza en el equipo la lista de paquetes que hay en los repositorios configurados en el archivo /etc/apt/sources.list
+```
+apt update
+```
+
 Actualiza los paquetes de software 
 ```
 sudo apt-get upgrade
@@ -28,13 +33,12 @@ apt-get install net-tools
 ```
 
 Forzar Instalacionnn
-```
+
 apt-get install -f
 ```
 
 
-
-
+*****************************************************************
 
 
 
