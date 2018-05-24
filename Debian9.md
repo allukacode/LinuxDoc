@@ -27,4 +27,6 @@ o navegar hasta la carpeta donde se encuentra el .deb
 /home/guest/Downloads# dpkg -i google-chrome-stable_current_amd64.deb
 
 ```
+sudo apt-get update && sudo apt-get install apt-transport-https
+apt --fix-broken install
 
