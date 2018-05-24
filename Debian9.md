@@ -20,15 +20,10 @@ sudo apt-get upgrade
 
 ```
 
-
-
-
-
-
-
-
 Instalar Un paquete con extension .deb
 ```
 dpkg -i /home/guest/Downloads/google-chrome-stable_current_amd64.deb
+o navegar hasta la carpeta donde se encuentra el .deb
+/home/guest/Downloads# dpkg -i google-chrome-stable_current_amd64.deb
 
 ```
