@@ -1,6 +1,6 @@
-# Debian 9
-Que Hacer despues de instalar Debian ?
+# Debian 9 Documentacion basica
 
+Que Hacer despues de instalar Debian ?
 Reiniciar / Apagar
 ```
 sudo reboot
@@ -19,6 +19,19 @@ Actualiza los paquetes de software
 sudo apt-get upgrade
 
 ```
+#Aplicaciones Esenciales del S.O
+apt-get install apt-transport-https
+apt-get install git
+
+Forzar Instalacion
+apt-get install -f
+
+
+
+
+
+
+
 
 Instalar Un paquete con extension .deb
 ```
@@ -31,7 +44,7 @@ sudo apt-get update && sudo apt-get install apt-transport-https
 apt --fix-broken install
 
 
-sudo apt-get install -f
+sudo 
 
 ------------
 
@@ -65,5 +78,4 @@ Ahora no quedará rastro del paquete antes instalado.
 sudo apt-get install -f
 
 
-#Aplicaciones de Sistema
-apt-get install apt-transport-https
+
