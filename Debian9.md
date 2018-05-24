@@ -1,23 +1,27 @@
 # Debian 9 
 ### Documentacion Basica De Comandos Esenciales
-
 Nota: Iniciar session como una cuenta con privilegios
 ```
 root@debian:/home/guest/Downloads#
 ```
 
-Reiniciar / Apagar
+Muestra todas unidades y particiones del sistema
 ```
-
-sudo reboot
-
-sudo poweroff
+lsblk
+```
+Reiniciar Sistema
+```
+reboot
+```
+Apagar Sistema
+```
+poweroff
 ```
 
 
 Actualizar las listas de paquetes de software.
 ```
-sudo apt-get update
+apt-get update
 ```
 
 Actualiza en el equipo la lista de paquetes que hay en los repositorios configurados en el archivo /etc/apt/sources.list
@@ -27,7 +31,7 @@ apt update
 
 Actualiza los paquetes de software 
 ```
-sudo apt-get upgrade
+apt-get upgrade
 
 ```
 #Aplicaciones Esenciales del S.O
