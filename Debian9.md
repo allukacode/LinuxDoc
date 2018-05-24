@@ -1,4 +1,5 @@
-# Debian 9 Documentacion basica
+# Debian 9 
+### Documentacion Basica De Comandos Esenciales
 
 Que Hacer despues de instalar Debian ?
 Reiniciar / Apagar
@@ -23,9 +24,10 @@ sudo apt-get upgrade
 ```
 apt-get install apt-transport-https
 apt-get install git
+apt-get install net-tools
 ```
 
-Forzar Instalacion
+Forzar Instalacionnn
 ```
 apt-get install -f
 ```
