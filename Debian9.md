@@ -27,6 +27,7 @@ sudo apt-get upgrade
 ```
 #Aplicaciones Esenciales del S.O
 ```
+apt-get install curl
 apt-get install apt-transport-https
 apt-get install git
 apt-get install net-tools
