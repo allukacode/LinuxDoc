@@ -46,12 +46,16 @@ apt-get install net-tools
 apt install openssh-server openssh-client
 ```
 
-Forzar Instalacionnn
-
+Forzar Instalacion
+```
 apt-get install -f
 ```
 
-
+You can remove all custom repositories by running
+```
+sudo rm /etc/apt/sources.list.d/*
+sudo apt update
+```
 *****************************************************************
 
 
