@@ -3,7 +3,7 @@ date --set "2018-06-10 11:20"
 
 
 -Cambiar contraseña de usuario en centos
-passwd allukacode
+passwd allukacodee
 
 -Instalar Archivos.Rpm
 yum install http:urldelarchivo.rpm
