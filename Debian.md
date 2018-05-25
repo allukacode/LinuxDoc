@@ -104,3 +104,4 @@ sudo apt-get install -f
 
 
 https://servidordebian.org/es/stretch/config/software/apt
+https://github.com/Microsoft/vscode-mssql/issues/901
