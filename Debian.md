@@ -43,7 +43,9 @@ apt-get install curl
 apt-get install apt-transport-https
 apt-get install git
 apt-get install net-tools
-apt install openssh-server openssh-client
+apt-get install openssh-server openssh-client
+apt-get install netcat
+apt-get install wine
 ```
 
 Forzar Instalacion
