@@ -47,3 +47,5 @@ yum --enablerepo=base clean metadata
 -Instalamos, hora de ir por un café ;-)
 yum groupinstall 'Servidor con GUI'
 
+------------------
+install httpd xinetd syslinux tftp-server -y
