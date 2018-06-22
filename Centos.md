@@ -48,5 +48,8 @@ yum --enablerepo=base clean metadata
 yum groupinstall 'Servidor con GUI'
 
 - Servidor TFTP
+```
 yum install httpd xinetd syslinux tftp-server -y
+```
+Carpeta
 cd /usr/share/syslinux/
