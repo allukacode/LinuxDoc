@@ -76,3 +76,8 @@ yum install httpd xinetd syslinux tftp-server -y
 ```
 Carpeta
 cd /usr/share/syslinux/
+
+- Servidor
+```
+yum install samba samba-client samba-common -y
+```
