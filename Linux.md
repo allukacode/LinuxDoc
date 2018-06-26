@@ -59,4 +59,4 @@ Mv (de move o mover), mueve un archivo a una ruta específica, y a diferencia de
 ```
 mv /home/prueba.txt /home/respaldos/prueba2.txt
 ```
-
+cp -fr /mnt/* /var/lib/tftpboot/
